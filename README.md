@@ -14,14 +14,15 @@ A [screencast](https://youtu.be/yx4HeeMmK5o) showing how to perform the setup an
 - The past builds and designs must be known accurately for tasks like debugging. 
 - In general the older versions have great importance in many conditions like where the customers might not have updated their systems. 
 - Configuration management ensures that documentation that actually describes the given system is produced.
--  It helps with   
-    
-     
+- It helps with training people to work on the project and also in audits and supporting different product types to different customers.
+- Because of CM we can study the wrong design and development patterns that maybe be followed by people and hence avoid them.
 - Even when using configuration management certain things can go wrong:
 requirements accepted, design implemented, tools used for development, software tested, test suite being used, software version released.
 If any of these go wrong it will lead to wastage of time and effort along with delay in deliveries and also dissatisfied customers. 
 
-2. Explain the difference between continuous integration, continuous delivery, and continuous deployment, in your own words.
+**Explain the difference between continuous integration, continuous delivery, and continuous deployment, in your own words.**    
+    
+- 
 
 
 
