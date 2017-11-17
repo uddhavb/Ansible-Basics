@@ -1,0 +1,31 @@
+---
+- hosts: nodes
+
+  become_user: root
+  become: yes
+  become_method: sudo
+
+  tasks: 
+    - name: install forever in the directory
+      npm: name=forever state=present global=yes
+
+    - name: Start forever
+      shell: forever start main.js 12345 chdir=App/
+    
+    - debug:
+      msg: forever list
+       
+    - name: bash version
+      apt: name=bash state=latest
+
+    - name: openssl version
+      apt: name=openssl state=latest
+
+    - name: openssh client version
+      apt: name=openssh-client state=latest
+
+    - name: openssh server version
+      apt: name=openssh-server state=latest
+  
+    - name: delete files from /tmp/
+      shell: rm -rf * chdir=/tmp/
