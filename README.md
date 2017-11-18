@@ -1,6 +1,6 @@
-#HW5   
+# HW5   
    
-##Setup and Tasks:   
+## Setup and Tasks:   
 The ansible code for the given assignments in the setup and tasks sections are in the files **[setup](setup.yml)** and **[tasks](tasks.yml)** respectively.    
 
 A **[screencast](https://youtu.be/yx4HeeMmK5o)** showing how to perform the setup and tasks along with the running app is also included in this repository.
@@ -26,5 +26,5 @@ ansible-box> $ sudo apt-get install ansible
 - On running this command we get the desired output and the respective changes are made to the node machines.
 
 
-##Concepts:  
+## Concepts:  
 Answers to the **[concepts](concepts.md)** subsection of the homework.
