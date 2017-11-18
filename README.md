@@ -27,4 +27,4 @@ ansible-box> $ sudo apt-get install ansible
 
 
 ##Concepts:  
-Answers to the **[concepts](concept.md)** subsection of the homework.
+Answers to the **[concepts](concepts.md)** subsection of the homework.
