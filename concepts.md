@@ -19,7 +19,7 @@ If any of these go wrong it will lead to wastage of time and effort along with d
    
    integerta, delivery deployment
  - *Continuous Integration*: is a practice of automatically building, testing and analyzing any changes that were made to a software are commited to the source repository. This means that all the changes are saved and properly organized. So whenever needed we can use them in our deployment. They are howvever not available for use by customers. Hence in this practice the changes are continuosly added to the prject but the end users do not simulataneously receive the changes.
-- *Continuous Delivery*: is a practice where any changes to the software can be delivered and ready to use by customer in production-like environments. Here the changes in the software are inte
-- A practice where incremental software changes are automatically tested, vetted, and deployed to production environments.
+- *Continuous Delivery*: is a practice where any changes to the software can be delivered and ready to use by customer in production-like environments. Here the changes in the software are integrated and also made available for use but in a restricted environment and generally for testing purposes.
+- *Continuous Deployment*: is a practice where any changes made to the software are automatically tested, checked and corrected and deployed to production environments. The changes are directly tested and corrected if any errors are found and deployed for use by the end users. This means that the changes made by the developers are automatically and conitnuously made available to the customers.
 
 
